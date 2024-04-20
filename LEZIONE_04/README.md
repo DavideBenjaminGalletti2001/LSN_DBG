@@ -20,9 +20,9 @@ make
 ```
 **post_equilibrazione:**
 ```bash
-./post_equilibrazione.exe : serve per l'equilibrazione e spostare file config.dat, velocity.dat e output_temp.dat in una opprtuna sottodirectory 
+./post_equilibrazione.exe 
 ```
-
+serve per l'equilibrazione e spostare file config.dat, velocity.dat e output_temp.dat in una opprtuna sottodirectory 
 **Pulizie:**  
 `./clean.sh`: rimuove *forzatamente* tutti i file dalla cartella `frames` e invoce ./clean<phase> 
 `./clean<phase>.sh`: rimuove *forzatamente* tutti i file `.dat` dalla directory `<phase>`  
