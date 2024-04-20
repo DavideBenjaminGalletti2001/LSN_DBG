@@ -16,16 +16,6 @@ In questo caso si dovra' ripetere l'esecuzione per 4 volte cambiando ripetutamen
 ```bash
 ./post_equilibrazione.sh
 ```
-**mv_config**: serva spostare tutti i file .config
-```bash
-./mv_config_metropolis.sh
-./mv_config_gibbs.sh
-```
-
-Per pulire i file dei plot, eseguire
-```bash
-./clean_plots.sh
-```
 Pulizia generale:
 ```bash
 ./clean.sh
