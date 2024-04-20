@@ -38,4 +38,8 @@ Per pulire i file dei plot, eseguire
 ```bash
 ./clean_plots.sh
 ```
+Pulizia generale:
+```bash
+./clean.sh
+```
 
