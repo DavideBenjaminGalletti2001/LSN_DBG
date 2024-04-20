@@ -1,0 +1,2 @@
+rm -rf OUTPUT_FILE/MC/SOLID_FILE/*.dat
+rm -rf OUTPUT_FILE/MD/SOLID_FILE/*.dat

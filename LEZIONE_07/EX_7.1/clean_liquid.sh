@@ -1,0 +1,2 @@
+rm -rf OUTPUT_FILE/MC/LIQUID_FILE/*.dat
+rm -rf OUTPUT_FILE/MD/LIQUID_FILE/*.dat

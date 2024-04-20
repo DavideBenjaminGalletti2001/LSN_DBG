@@ -1,0 +1,1 @@
+rm -rf OUTPUT_FILE/LIQUID_FILE/*.dat

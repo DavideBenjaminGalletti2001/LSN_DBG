@@ -1,0 +1,4 @@
+
+rm -rf OUTPUT_FILE/MD/SOLID_FILE/*.dat
+rm -rf OUTPUT_FILE/MD/LIQUID_FILE/*.dat
+rm -rf OUTPUT_FILE/MD/GAS_FILE/*.dat
