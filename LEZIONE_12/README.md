@@ -1,2 +1,2 @@
-#ESERCITAZIONE 12
+# ESERCITAZIONE 12
 leggasi il jupyter notebook
