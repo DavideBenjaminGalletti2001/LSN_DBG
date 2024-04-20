@@ -1,21 +1,32 @@
 # Esercitazione 7
 
-Per **compilare** il codice, entrare nella cartella ex7-MDNVE_MCMVT e comandare
+Per **compilare** il codice, entrare nella cartella Ising_1D e comandare
 ```bash
 make
 ```
-Per **eseguire** normalmente, nella stessa cartella comandare
+
+
+Per eseguire a dati fissati la simulazione una dopo l'altra delle tre fasi basta eseguire:
 ```bash
-make run
+./run_<phase>.sh
 ```
 
-Per semplificare l'**esecuzione dell'intera simulazione**, ho scritto un file `bash` eseguibile con
+In questo caso si dovra' ripetere l'esecuzione per 4 volte cambiando ripetutamente i valori del file di input:
+**post_equilibrazione**
 ```bash
-./run_all_phases.sh
+./post_equilibrazione.sh
 ```
-il quale esegue simulazioni sulle tre fasi, leggendo i parametri dal file di input
+**mv_config**: serva spostare tutti i file .config
+```bash
+./mv_config_metropolis.sh
+./mv_config_gibbs.sh
+```
 
-Per **pulire** i file dei plot, eseguire
+Per pulire i file dei plot, eseguire
+```bash
+./clean_plots.sh
+```
+Pulizia generale:
 ```bash
 ./clean.sh
 ```
